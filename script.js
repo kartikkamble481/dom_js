@@ -80,3 +80,33 @@ cube.style.backgroundColor = "pink";
 console.log(cube);
 
 // let dox = document.createElement("div");
+
+// practice set 1 in dom manipulation
+
+let newBtn = document.createElement("button");
+
+newBtn.innerText = "click me..!";
+
+document.querySelector("button");
+
+newBtn.style.color = "white";
+newBtn.style.backgroundColor = "red";
+
+document.querySelector("body").prepend(newBtn);
+
+let newdiv = document.createElement("div");
+
+newdiv.innerText = "click me..!";
+
+document.querySelector("div");
+
+newdiv.style.color = "white";
+newdiv.style.backgroundColor = "red";
+newdiv.style.height = "100px";
+newdiv.style.width = "100px";
+newdiv.style.border = "2px solid black";
+newdiv.style.alignItems = "center";
+newdiv.style.textAlign = "center";
+newdiv.style.alignContent = "center";
+
+document.querySelector("body").after(newdiv);
