@@ -25,7 +25,9 @@ for(div of divs) {
 console.log(divs);
 
 
+
 let lovecode = document.querySelectorAll(".love");
+
 
 console.log(lovecode[0]);
 
