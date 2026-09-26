@@ -38,3 +38,28 @@ for(love of lovecode){
 
 
 console.log(lovecode);
+
+
+let boxs = document.querySelectorAll(".box1");
+ 
+for(box of boxs) {
+    box.innerText = "hey babe";
+    box++;
+}
+
+console.log(boxs);
+
+
+let infos = document.querySelectorAll(".info");
+let idx = 1;
+for(info of infos ){
+    info.innerText = `name = kartik\n age = 21\n DOB = 12/11/2005\n ${idx} `;
+    idx++;
+   
+}
+
+    info.style.backgroundColor = "red";
+    info.style.color = "white";
+    info.style.border = "10px solid black";
+
+console.log(info);

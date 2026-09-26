@@ -54,3 +54,24 @@ div{
 
 }
 
+.box1{
+    color:blue;
+    background-color:blanchedalmond;
+    height:100px;
+    width:100px;
+    margin:10px;
+    border:2px solid black;
+    text-align: center;
+
+}
+
+.info{
+    color:maroon;
+    background-color:aquamarine;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border:2px solid black;
+    margin:10px;
+}
