@@ -56,3 +56,20 @@ console.log(newh1);
 document.querySelector("body").prepend(newh1);
 
 // document.querySelector("div").append(newh1);
+
+let newdiv2 = document.createElement("div");
+
+document.querySelector("div");
+
+document.querySelector("newdiv2");
+
+newdiv2.style.color = "red";
+newdiv2.style.backgroundColor = "skyblue";
+newdiv2.style.height = "100px";
+newdiv2.style.width = "100px";
+
+newdiv2.innerText = "this is new div 2";
+
+console.log(newdiv2);
+
+document.querySelector("body").append(newdiv2);
