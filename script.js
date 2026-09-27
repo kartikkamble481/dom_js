@@ -110,3 +110,9 @@ newdiv.style.textAlign = "center";
 newdiv.style.alignContent = "center";
 
 document.querySelector("body").after(newdiv);
+
+// Q2
+
+let content = document.querySelectorAll("p");
+
+content.innerText = "heyy babe";

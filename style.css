@@ -88,3 +88,8 @@ div{
     align-content:center;
     font-size:25px;
 }
+
+.para{
+    color:red;
+    background-color:pink;
+}
