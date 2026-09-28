@@ -73,3 +73,34 @@ newdiv2.innerText = "this is new div 2";
 console.log(newdiv2);
 
 document.querySelector("body").append(newdiv2);
+
+const newh2 = document.createElement("h2");
+
+newh2.innerText = "OVIIIXII";
+
+console.log(newh2);
+
+let h3 = document.createElement("h3");
+
+h3.innerText = "Thnk you";
+
+h3.style.color = "blue";
+h3.style.fontSize = "25px";
+
+h3.setAttribute("class", "hedding");
+
+document.querySelector("body").append(h3);
+
+function vote() {
+  let age = prompt("enter your age : ");
+
+  if (age >= 18) {
+    console.log("you can vote");
+  } else {
+    console.log("you can't vote");
+  }
+}
+
+vote();
+
+// document.querySelector("body").prepend();
